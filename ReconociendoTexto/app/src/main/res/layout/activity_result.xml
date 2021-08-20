@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+
+        <TextView
+            android:id="@+id/txtPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pais...."
+            android:textAlignment="center"
+            android:textColor="#01827D"
+            android:textSize="24sp"/>
+
+        <ImageView
+            android:id="@+id/imgViewBandera"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@color/black"/>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtCapital_"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="  Capital :"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/txtCapital"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Capital..."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtTelPref_"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="  Tel Prefijo :"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtTelPref"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Prefijo...."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtCenter_"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="  Center :"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/txtCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="center...."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtIso2_"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="  ISO 2 :"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/txtIso2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="iso2...."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtIso3_"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="  ISO 3 :"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/txtIso3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="iso3...."
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtIsoFips_"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="  ISO Fips :"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/txtIsoFips"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="iso fips...."
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtIsoNum_"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="  ISO Num:"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/txtIsoNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="iso num....."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="@color/black"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/map"
+                tools:context=".MainActivity"
+                android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:onClick="CambiarTipoMapa"
+                android:text="Vista mapa" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
