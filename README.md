@@ -7,9 +7,11 @@ Pantalla Principal:
 ![alt text](https://github.com/SebastianCarvajal/PRUEBA-MOVILES-19-08-2021/blob/main/Capturas/captura1.png)
 
 Con el botón Abrir IMAGEN se abre la galería del dispositivo:
+
 ![alt text](https://github.com/SebastianCarvajal/PRUEBA-MOVILES-19-08-2021/blob/main/Capturas/captura2.png)
 
 Al seleccionar una imagen en la galeria esta se mustra en un ImageView:
+
 ![alt text](https://github.com/SebastianCarvajal/PRUEBA-MOVILES-19-08-2021/blob/main/Capturas/captura3.png)
 
 Luego al presionar el boton Detectar Pais se muestra el nombre de un TextView y se obtiene tambien el condigo Alpha2:
