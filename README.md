@@ -10,16 +10,16 @@ Con el botón Abrir IMAGEN se abre la galería del dispositivo:
 
 ![alt text](https://github.com/SebastianCarvajal/PRUEBA-MOVILES-19-08-2021/blob/main/Capturas/captura2.png)
 
-Al seleccionar una imagen en la galeria esta se mustra en un ImageView:
+Al seleccionar una imagen en la galería esta se muestra en un ImageView:
 
 ![alt text](https://github.com/SebastianCarvajal/PRUEBA-MOVILES-19-08-2021/blob/main/Capturas/captura3.png)
 
-Luego al presionar el boton Detectar Pais se muestra el nombre de un TextView y se obtiene tambien el condigo Alpha2:
+Luego al presionar el botón Detectar País se muestra el nombre de un TextView y se obtiene tambien el código Alpha2:
 
 ![alt text](https://github.com/SebastianCarvajal/PRUEBA-MOVILES-19-08-2021/blob/main/Capturas/captura4.png)
 
 Posteriormente se muestra la información, para lo cual se hace uso del boton Mostrar Información. Para mostrar la informacion se hace uso de otro Activity el cual se le pasa como parametro el Codigo Alpha2 ya obtenido y a partir de ese cogigo poder obtener la información desde las APIs.
-La primer prueba se hizo con una imagen que contiene el nombre del país Ecuador, por lo tanto el resultado de la informacion es la siguienteÑ
+La primer prueba se hizo con una imagen que contiene el nombre del país Ecuador, por lo tanto el resultado de la informacion es la siguiente:
 
 ![alt text](https://github.com/SebastianCarvajal/PRUEBA-MOVILES-19-08-2021/blob/main/Capturas/captura5.png)
 
